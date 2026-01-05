@@ -45,7 +45,7 @@ class _AddIngredientsScreenState extends State<AddIngredientsScreen> {
                           ),
                           actions: [
                             TextButton(onPressed: () => Navigator.pop(context, false), child: const Text('Hủy')),
-                            TextButton(onPressed: () => Navigator.pop(context, true), child: const Text('OK')),
+                            TextButton(onPressed: () => Navigator.pop(context, true), child: const Text('Lưu')),
                           ],
                         ),
                       );
